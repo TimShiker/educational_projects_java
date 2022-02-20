@@ -1,3 +1,5 @@
+package PrinterAndBasket;
+
 public class Basket {
 
     private String items;
@@ -114,7 +116,7 @@ public class Basket {
     public void print(String title) {
         System.out.println(title);
         if (items.isEmpty()) {
-            System.out.println("Basket is empty");
+            System.out.println("PrinterAndBasket.Basket is empty");
         } else {
             System.out.println(items);
         }

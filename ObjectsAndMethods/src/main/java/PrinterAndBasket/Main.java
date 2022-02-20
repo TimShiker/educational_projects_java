@@ -1,9 +1,11 @@
+package PrinterAndBasket;
+
 public class Main {
 
     public static void main(String[] args) {
 
         /*
-            Example for class Basket
+            Example for class PrinterAndBasket.Basket
          */
 
         Basket basketFirst = new Basket();
@@ -30,7 +32,7 @@ public class Main {
                 "\nTotal cost is: " + Basket.getTotalCost());
 
         /*
-         Example for class Printer
+         Example for class PrinterAndBasket.Printer
          */
 
         Printer printerFirst = new Printer();
