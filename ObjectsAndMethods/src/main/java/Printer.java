@@ -52,6 +52,7 @@ public class Printer {
 
             totalDocumentsAndPagesCount = totalDocumentsCount + totalPagesCount;
         }
+
         clear();
     }
 
