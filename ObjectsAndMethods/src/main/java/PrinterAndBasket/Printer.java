@@ -1,3 +1,5 @@
+package PrinterAndBasket;
+
 public class Printer {
 
     private String queue;
