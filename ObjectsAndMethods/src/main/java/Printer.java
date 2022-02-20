@@ -12,6 +12,7 @@ public class Printer {
         queue = "List of documents to print:" + "\n";
     }
 
+    // created overload methods 'append'
     public void append(String text){
         append(text, "", 0);
     }
@@ -64,6 +65,7 @@ public class Printer {
         return documentsCount;
     }
 
+    // created static method
     public static int getTotalPrintDocumentsAndPages(){
         return totalDocumentsAndPagesCount;
     }
