@@ -2,13 +2,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Example first cargo
+        // example first cargo
         Dimensions dimensionsFirst = new Dimensions(12, 38, 59);
         Cargo cargo = new Cargo(dimensionsFirst, 345, "Back street, 5", true, "0001", false);
 
         System.out.println("Volume of cargo: " + cargo.getDimensions().calculatedVolume());
 
-        // Example second cargo
+        // example second cargo
         Dimensions dimensionsSecond = new Dimensions(10, 30, 50);
         Cargo cargo2 = cargo.setDimensions(dimensionsSecond).setDeliveryAddress("Summer bulvar, 15").setWeight(900);
 
