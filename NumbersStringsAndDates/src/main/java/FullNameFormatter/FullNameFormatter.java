@@ -71,6 +71,7 @@ public class FullNameFormatter {
                 }
             }
         }
+
         return isCyrillic;
     }
 
