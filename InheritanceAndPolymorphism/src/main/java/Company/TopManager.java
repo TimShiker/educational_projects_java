@@ -2,6 +2,7 @@ package Company;
 
 public class TopManager implements Employee {
 
+    // all final values take from task
     private final double fixedSalary = 100_000.0;
     private final double bonusPercentage = 150.0;
     private Company company;

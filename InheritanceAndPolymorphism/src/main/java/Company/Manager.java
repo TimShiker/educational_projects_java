@@ -24,6 +24,7 @@ public class Manager implements Employee {
         return amountEarnedMoney;
     }
 
+    // min and max amount earned money take from task
     private double calculatedAmountEarnedMoney() {
 
         int minAmountEarnedMoney = 115_000;

@@ -12,6 +12,7 @@ public class Company {
     private List<Employee> allEmployees;
     private double income;
 
+    // created overloading constructors
     public Company() {
         allEmployees = new ArrayList<>();
         income = 0.0;
@@ -27,6 +28,7 @@ public class Company {
         this.income += income;
     }
 
+    // method to hire one employee
     public void hire(Employee employee) {
 
         if (employee != null && !allEmployees.contains(employee)) {
@@ -37,6 +39,7 @@ public class Company {
         }
     }
 
+    // method to hire list employees
     public void hireAll(List<Employee> addEmployeeList) {
 
         if (!addEmployeeList.isEmpty()) {
@@ -48,6 +51,7 @@ public class Company {
         }
     }
 
+    // method to fire one employee
     public void fire(Employee employee) {
         if (employee != null && allEmployees.contains(employee)) {
             allEmployees.remove(employee);
@@ -57,6 +61,7 @@ public class Company {
         }
     }
 
+    // method to calculate income of company
     public double getIncome() {
 
         double sumIncomesEachEmployee = 0.0;
@@ -73,6 +78,7 @@ public class Company {
         return income;
     }
 
+    // method to get top salary staff with using Comparator
     public List<Employee> getTopSalaryStaff(int count) {
 
         if (count < 0 || count > allEmployees.size()) {
@@ -104,6 +110,7 @@ public class Company {
         return Collections.unmodifiableList(topSalaryStaff);
     }
 
+    // method to get lowest salary staff with using Comparator
     public List<Employee> getLowestSalaryStaff(int count) {
 
         if (count < 0 || count > allEmployees.size()) {
