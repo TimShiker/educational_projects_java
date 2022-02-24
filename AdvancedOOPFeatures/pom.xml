@@ -13,4 +13,14 @@
         <maven.compiler.target>16</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.skillbox</groupId>
+            <artifactId>airport</artifactId>
+            <version>1.0.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/airport-1.0.1.jar</systemPath>
+        </dependency>
+    </dependencies>
+
 </project>
